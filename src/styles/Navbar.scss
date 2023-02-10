@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+    .right{
+        ul{
+            display: flex;
+        align-items: center;
+        gap: 30px;
+
+        li{
+            list-style: none;
+            font-size: 19px;
+        }
+        }
+
+    }
+
+}
