@@ -1,3 +1,37 @@
 .work{
-    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .buttom{
+        display: flex;
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+
+            .number{
+                background: rgb(61, 67, 146);
+                padding: 25px;
+                color: white;
+                font-weight: 600;
+                font-size: 18px;
+                // border-radius: 25% 10%;
+                border-radius: 10px 100px / 120px;
+            }
+            .card-text{
+                background: rgb(61, 67, 146);
+                padding: 40px 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3, p{
+                    color: white;
+                }
+            }
+        }
+    }
 }
