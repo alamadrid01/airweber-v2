@@ -8,7 +8,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 40px 30px ;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 
     .right{
         ul{

@@ -5,6 +5,7 @@ import Third from '../components/homepage-section/Third'
 import Where from '../components/homepage-section/Where'
 import Work from '../components/homepage-section/Work'
 import "../styles/Homepage.scss"
+import Hero from "../assets/c.jpg"
 
 function Homepage() {
   const Navigate = useNavigate()
@@ -12,7 +13,7 @@ function Homepage() {
     <>
     <div className='homepage'>
         <div className="top">
-
+          <img src={Hero} alt="hero-image" />
         </div>
         <div className="bottom">
           <p>Who are we?</p>
